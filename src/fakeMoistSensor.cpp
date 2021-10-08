@@ -1,5 +1,10 @@
-#include <stdlib.h> 
+#include "mbed.h"
 #include "fakeMoistSensor.h"
+
+FakeMoistSensor::FakeMoistSensor()
+{
+    srand(time(NULL));
+}
 
 int FakeMoistSensor::moisture() {
     // get random value
