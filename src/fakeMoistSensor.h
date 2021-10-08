@@ -5,5 +5,5 @@
 class FakeMoistSensor {
     public:
         FakeMoistSensor();
-        int moisture();
+        uint16_t moisture();
 };
